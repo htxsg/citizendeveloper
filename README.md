@@ -7,13 +7,13 @@ The Citizen Developer meetup group is organise to grow interest in coding coveri
 In this repo, we will alos share projects to enable people to create apps to solve their day-to-day problem.
 
 ## Happenings
-We will be running monthly meetups (typcially Thu or Fri 5pm) to share and demonstrate practical examples to help to devleop basic coding skills that can be applied to your daily tasks be it for work or for personal use. The sharing will be done by eXponents, friends of eXponents and friends from the industry.
+We will be running monthly meetups (typcially Thu or Fri 4-5pm) to share and demonstrate practical examples to help to devleop basic coding skills that can be applied to your daily tasks be it for work or for personal use. The sharing will be done by eXponents, friends of eXponents and friends from the industry.
 
 and for you to hang out with fellow Citizen Developers. When situation eases, we will chill over drinks and snacks too. 
 
 |Meetup|When|Where|Details|
 |---|---|---|---|
-|Episode #01 The Pilot|9 Jul 21| Online|In this pilot meetup, [Pan Yong](https://www.linkedin.com/in/ngpanyong/) will share the vision of the meetup group and demonstrate how can one use powerapp and excel to create a simple app for polling and analysiing data.|
+|Episode #01 Let's Create|9 Jul 21, 4-5pm| Online|In this pilot meetup, [Pan Yong](https://www.linkedin.com/in/ngpanyong/) will share the vision of the meetup group and demonstrate how can one use powerapp and excel to create a simple app for polling and analysiing data.|
 
 
 
