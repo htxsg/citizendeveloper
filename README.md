@@ -7,9 +7,7 @@ The Citizen Developer meetup group is organise to grow interest in coding coveri
 In this repo, we will alos share projects to enable people to create apps to solve their day-to-day problem.
 
 ## Happenings
-We will be running monthly meetups (typcially Thu or Fri 4-5pm) to share and demonstrate practical examples to help to devleop basic coding skills that can be applied to your daily tasks be it for work or for personal use. The sharing will be done by eXponents, friends of eXponents and friends from the industry.
-
-and for you to hang out with fellow Citizen Developers. When situation eases, we will chill over drinks and snacks too. 
+We will be running monthly meetups (typcially Thu or Fri 4-5pm) to share and demonstrate practical examples to help devleop basic coding skills that can be applied to your daily tasks - be it for work or for personal use. The sharing will be done by eXponents, friends of eXponents and friends from the industry. Importantly, you can to hang out with fellow Citizen Developers, share ideas and chill over drinks and snacks (when the situation allows).
 
 |Meetup|When|Where|Details|
 |---|---|---|---|
