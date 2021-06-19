@@ -1,5 +1,5 @@
 # Citizen Developer Meetup Group
-A HTX initiative by developers for developers, making coding fun! Our tagline is **#MakeYourOwn**.
+A HTX initiative by developers for developers, make coding fun and asessible to everyone! You can developer and be part of our **#MakeYourOwn** movement.
 
 ## About
 The Citizen Developer meetup group is organise to grow interest in coding covering a broad range of topics from lo-code, scripting languages, compiled language to domain specific ones. It is not so much about what lanugages, but what problem we can solve with coding skills.
@@ -13,7 +13,7 @@ and for you to hang out with fellow Citizen Developers. When situation eases, we
 
 |Meetup|When|Where|Details|
 |---|---|---|---|
-|Episode #01 The Pilot|9 Jul 21| Online|In this pilot meetup, [Pan Yong](https://www.linkedin.com/in/ngpanyong/) will share the vision of the meetup group and demonstrate how can one use powerapp and excel to create a simple app for polling and analysiing data|
+|Episode #01 The Pilot|9 Jul 21| Online|In this pilot meetup, [Pan Yong](https://www.linkedin.com/in/ngpanyong/) will share the vision of the meetup group and demonstrate how can one use powerapp and excel to create a simple app for polling and analysiing data.|
 
 
 
