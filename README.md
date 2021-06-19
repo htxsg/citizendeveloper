@@ -11,7 +11,7 @@ We will be running monthly meetups (1st Thu or Fri of every month) to share and 
 
 |Meetup|When|Where|Details|
 |---|---|---|---|
-|Episode #01 Let's Create|9 Jul 21, 4-5pm| Online|In this pilot meetup, [Pan Yong](https://www.linkedin.com/in/ngpanyong/) will share the vision of the meetup group and demonstrate how can one use powerapp and excel to create a simple app for polling and analysiing data.|
+|#01 Let's Create|9 Jul 21, 4-5pm| Online|In this pilot meetup, [Pan Yong](https://www.linkedin.com/in/ngpanyong/) will share the vision of the meetup group and demonstrate how can one use powerapp and excel to create a simple app for polling and analysiing data.|
 
 
 
