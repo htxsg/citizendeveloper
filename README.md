@@ -24,6 +24,7 @@ For a start, we will be covering the following topics:
 - Javascript
 - Markup languages
 - Coding environment and tools e.g. VS code, Git, dockers, Jupyter, etc
+- Practices - design thinking, storyboading, UX/UI, Agile, etc
 - Speifics domains - Discord, Unity, Arduino, RPA, etc, etc 
 
 ## Beyond the Languages
