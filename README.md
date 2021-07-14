@@ -33,4 +33,4 @@ Besides meeting up to learn about languages and developments tools, we will also
  
 
 ## Join US
-Join our meetup group and connect with us on [discord](https://discord.gg/DRC96Rhb9r) and telegram. We are also looking for crew members to organise the meetups and keep our discord channel active. If you have something to share ping us!
+Join our meetup group and connect with us on [discord](https://discord.gg/DRC96Rhb9r) and [telegram](https://t.me/joinchat/rUHXcbhbFjM1ODA1). We are also looking for crew members to organise the meetups and keep our discord channel active. If you have something to share ping us!
