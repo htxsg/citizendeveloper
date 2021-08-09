@@ -17,14 +17,16 @@ docker run -p 8501:8501 -it pyx7b/streamlit
 OR
 
 1b. Download files on your local machine and run the following command:
+
 ```
 docker build -t streamlit .
 docker run -p 8501:8501 -it streamlit
 ```
 
 2. Once inside the container, run the following command:
+
 ```
-$ streamlit hello
+streamlit hello
 ```
 
 3. Open your browser to http://localhost:8501
