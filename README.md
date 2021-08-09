@@ -1,5 +1,5 @@
 # Citizen Developer Meetup Group
-A HTX initiative by developers for developers, make coding fun and accessible to everyone! You can developer and be part of our **#MakeYourOwn** movement.
+A HTX initiative by developers for developers, make coding fun and accessible to everyone! You can be a developer and be part of our **#MakeYourOwn** movement.
 
 ## About
 The Citizen Developer meetup group is organise to grow interest in coding covering a broad range of topics from lo-code, scripting languages, compiled language to domain specific ones. It is not so much about what languages, but what problem we can solve with coding skills. Whether you are Noob or Pro, join us to learn and contribute.
