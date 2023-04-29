@@ -1,59 +1,58 @@
 from fastapi import FastAPI
-from callopenai import generate_text
+from pydantic import BaseModel
+from funny import generate_funny_book_name
 
 app = FastAPI()
 
-# Preloaded books
+# Define the Book model using Pydantic
+class Book(BaseModel):
+    name: str
+    author: str
+    description: str
+
+# Create a list of preloaded books
 books = [
-    {"id": 1, "title": "To Kill a Mockingbird", "author": "Harper Lee", "price": 10.99},
-    {"id": 2, "title": "1984", "author": "George Orwell", "price": 9.99},
-    {"id": 3, "title": "The Catcher in the Rye", "author": "J.D. Salinger", "price": 12.99},
-    {"id": 4, "title": "Brave New World", "author": "Aldous Huxley", "price": 8.99},
-    {"id": 5, "title": "Animal Farm", "author": "George Orwell", "price": 7.99},
+    Book(name="The Great Gatsby", author="F. Scott Fitzgerald", description="A classic novel about the decadence and excess of the Jazz Age."),
+    Book(name="To Kill a Mockingbird", author="Harper Lee", description="A Pulitzer Prize-winning novel about racial injustice in the American South."),
+    Book(name="1984", author="George Orwell", description="A dystopian novel about a totalitarian society where individual freedom is suppressed."),
+    Book(name="The Catcher in the Rye", author="J.D. Salinger", description="A coming-of-age novel about a teenage boy struggling to find his place in the world."),
+    Book(name="Pride and Prejudice", author="Jane Austen", description="A romantic novel about the social and economic status of women in early 19th century England.")
 ]
 
-# Endpoint to retrieve all books
+# Define a route to get all books
 @app.get("/books")
 async def get_books():
     return books
 
-# Endpoint to retrieve a specific book by ID
-@app.get("/books/{book_id}")
-async def get_book(book_id: int):
-    for book in books:
-        if book["id"] == book_id:
-            funny = generate_text("A funny description for the book " + book["title"] )
-            book["title"] = funny
-            return book
-    return {"error": "Book not found"}
+# Define a route to get a single book by index
+@app.get("/books/{index}")
+async def get_book_by_index(index: int):
+    if index < 0 or index >= len(books):
+        return {"error": "Index out of range"}
+    #upate book description with funny name
+    else:
+        book = books[index]
+        book.description = generate_funny_book_name(book.name)
+        return book
 
-# Endpoint to add a new book
+# Define a route to add a new book
 @app.post("/books")
-async def add_book(title: str, author: str, price: float):
-    book_id = len(books) + 1
-    book = {"id": book_id, "title": title, "author": author, "price": price}
+async def add_book(book: Book):
     books.append(book)
-    return book
+    return {"message": "Book added successfully"}
 
-# Endpoint to update an existing book
-@app.put("/books/{book_id}")
-async def update_book(book_id: int, title: str = None, author: str = None, price: float = None):
-    for book in books:
-        if book["id"] == book_id:
-            if title:
-                book["title"] = title
-            if author:
-                book["author"] = author
-            if price:
-                book["price"] = price
-            return book
-    return {"error": "Book not found"}
+# Define a route to update an existing book by index
+@app.put("/books/{index}")
+async def update_book(index: int, book: Book):
+    if index < 0 or index >= len(books):
+        return {"error": "Index out of range"}
+    books[index] = book
+    return {"message": "Book updated successfully"}
 
-# Endpoint to delete a book by ID
-@app.delete("/books/{book_id}")
-async def delete_book(book_id: int):
-    for i, book in enumerate(books):
-        if book["id"] == book_id:
-            del books[i]
-            return {"message": "Book deleted"}
-    return {"error": "Book not found"}
+# Define a route to delete a book by index
+@app.delete("/books/{index}")
+async def delete_book(index: int):
+    if index < 0 or index >= len(books):
+        return {"error": "Index out of range"}
+    del books[index]
+    return {"message": "Book deleted successfully"}
